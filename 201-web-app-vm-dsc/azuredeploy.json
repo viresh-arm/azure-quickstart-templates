@@ -157,6 +157,7 @@
     },
     "ListenPort": {
       "type": "string",
+      "defaultValue": "10933",
       "metadata": {
         "description": "Octopus Listening port. Usual port to use is 10933"
       }
