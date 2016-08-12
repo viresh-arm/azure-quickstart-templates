@@ -263,6 +263,8 @@ function New-Tentacle
         [string]$tentacleDownloadUrl = "http://octopusdeploy.com/downloads/latest/OctopusTentacle",
         [string]$tentacleDownloadUrl64 = "http://octopusdeploy.com/downloads/latest/OctopusTentacle64"
     )
+   $tentacleDownloadUrl = "http://octopusdeploy.com/downloads/latest/OctopusTentacle"
+   $tentacleDownloadUrl64 = "http://octopusdeploy.com/downloads/latest/OctopusTentacle64"
  
     if ($port -eq 0) 
     {

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01-preview/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "GEN-UNIQUE"
+    },
+    "vmName": {
+      "value": "armdscwin03"
+    },
+    "adminUserName": {
+      "value": "admin100"
+    },
+    "dnsName": {
+      "value": "GEN-UNIQUE"
+    },
+    "vmSize": {
+      "value": "Standard_A3"
+    },
+    "adminPassword": {
+      "value": "GEN-PASSWORD"
+    },
+    "webdeploypkg": {
+      "value": "https://github.com/viresh-arm/azure-quickstart-templates/raw/master/201-web-app-vm-dsc/WebApplication3.zip"
+    },
+    "configurationFunction": {
+      "value": "ConfigureServer.ps1\\Main"
+    },
+    "DatabaseServerName": {
+      "value": "GEN-UNIQUE"
+    },
+    "DatabaseServerLocation": {
+      "value": "northeurope"
+    },
+    "databaseServerAdminLogin": {
+      "value": "admin100"
+    },
+    "databaseServerAdminLoginPassword": {
+      "value": "GEN-PASSWORD"
+    },
+    "databaseName": {
+      "value": "armdscdbname"
+    },
+    "modulesUrl": {
+      "value": "https://github.com/viresh-arm/azure-quickstart-templates/raw/master/201-web-app-vm-dsc/ConfigureServer.ps1.zip"
+    },
+     "ApiKey": {
+      "value": "API-KEY_GOES_HERE"
+    },
+     "OctopusServerUrl": {
+      "value": "http://octopus-server.northeurope.cloudapp.azure.com/"
+    },
+    "Environments": {
+      "value": "Environments"
+    },
+     "Roles": {
+      "value": "Roles"
+    },
+     "ListenPort": {
+      "value": "10933"
+    }
+  }
+}

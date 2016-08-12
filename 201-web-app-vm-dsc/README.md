@@ -1,4 +1,4 @@
-# VM-DSC-Extension-IIS-Server
+# VM-DSC-Extension-IIS-Server-Octopus-Tentacle
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-web-app-vm-dsc%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
@@ -9,6 +9,8 @@
 
 <p>
 This template allows you to deploy a Web application a VM. It also configures the Web Application to set the SQL Azure database server.
+Further, it connects to an existing Octopus Server with currently the hardcoded Environment: "azure-doshi"
+
 In order to run the template, please make sure:
 </p>
 
